@@ -1,0 +1,81 @@
+#BOX{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#box{
+  height: 800px;
+  width: 800px;
+  background-color: rgb(118, 118, 239);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 20px;
+  background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-james-wheeler-414612.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+  
+}
+#techispot-chat{
+  position: absolute;
+  top: 5vh;
+  left: 48vh;
+  color: rgb(240, 255, 242);
+  text-shadow: 2px 2px 5px yellow;
+   
+}
+button{
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background: transparent;
+  color: yellow;
+}
+#border{
+    height: 800px;
+    width: 5px;
+    position: absolute;
+    left: 95vh;
+    background: linear-gradient(60deg,yellow,red,green);
+}
+.log-inside{
+    
+   color: rgb(220, 248, 6);
+    box-shadow: -10px 10px 10px rgb(254, 241, 7);
+    backdrop-filter: blur(100%);
+   margin: 20px;
+    
+}
+.number{
+  border: none;
+  margin: 20px;
+  
+}
+.email{
+  border: none;
+  margin: 20px;
+}
+.passward{
+  border: none;
+  margin: 20px;
+}
+.name{
+  border: none;
+  margin: 20px;
+}
+input{
+  background: transparent;
+}
+img{
+    
+    width: 400px;
+    position: absolute;
+    left: 1vh;
+    top: 10vh;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(228, 191, 7);
+}
